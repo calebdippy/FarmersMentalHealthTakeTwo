@@ -1,0 +1,582 @@
+
+@font-face{
+    font-family: "align";
+    src: url(fonts_2022/Blackshadow.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+@font-face{
+    font-family: "booter - zero zero";
+    src: url(fonts_2022/BOOTERZZ.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "ubuntu";
+    src: url(fonts/Ubuntu-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "audiowide";
+    src: url(fonts/Audiowide-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "bungee";
+    src: url(fonts/Bungee-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+@font-face{
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts_2022/Booter - Zero Zero.woff") format("woff"),
+        url("Fonts_2022/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    color: #777;
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin:0;
+    padding:0;
+    max-width: 100%;
+}
+
+.top{
+    position:absolute; top:0;
+    width:100%;
+}
+
+.main-header{
+    background-blend-mode: multiply;
+    color: white;
+}
+.main-nav li{
+    padding: 0 5%;
+    float:left;
+    background-color: white;
+    opacity: 90%;
+    height:10vh;
+    min-height: 40px; 
+    position:relative;
+    display:inline;
+    box-shadow:auto;
+}
+
+.nav ul{
+    margin:0px;
+}
+
+.nav{
+
+}
+
+
+.nav a {
+    padding: .5em;
+    color: black;
+    opacity: 100%;
+    font-weight: 600;
+    text-decoration: none;
+    font-family:ubuntu;
+}
+
+
+.ul li a:hover{
+
+}
+ul li:hover ul.dropdown{
+    list-style:none;
+    visibility: visible;
+}
+.nav a{
+    font-family:ubuntu;
+    font-weight:bold;
+    color: black;
+}
+
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+    display:inline;
+}
+
+.dropdown{
+    width:90%;
+    position:absolute;
+    z-index: 1;
+    visibility: hidden;
+
+}
+
+.title{
+    text-align: center;
+    margin:0px;
+    font-size: 4em;
+    font-family:ubuntu;
+    font-weight: normal;
+    color: white;
+    font-weight:bold;
+    margin-top:25vh;
+}
+
+.container{
+    width:100%;
+    max-width:100%;
+    margin:0;
+    padding: 0 1.5em;
+    background-color:lavender;
+    position:relative;
+    
+}
+
+.content-section{
+    display:flex;
+    margin-top:45vh;
+}
+
+.section-header{
+    font-family:ubuntu;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.main-footer{
+    padding: .25em 0; 
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+    height:50px;
+    background-color: white;
+    list-style: none;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: center;
+    margin-right:5px;
+}
+
+.footer-nav li{
+    padding: 0 6em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.tour-btn{
+    max-width: 160px;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-primary{
+    color: white;
+    background-color:black;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color:#777;
+}
+
+.background{
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative; 
+    height:100vh;
+    width:100vw;
+   }
+.logo{
+    height: 50px;
+    width:auto;
+}
+.container logo{
+    position: absolute;
+}
+.subheading{
+    text-align: center;
+    font-size:2.5em;
+    font-family:ubuntu;
+    color:black;
+    margin-left: 50px;
+    font-weight:bold;
+    
+}
+
+}
+.subheading-1{
+}
+.subheading-small{
+  
+    text-align: left;
+    font-size: 2em;
+    font-family:ubuntu;
+    color:black;
+    margin-left: 10px;
+    margin-right:10px;
+    font-weight:bold;
+    margin-top: 20px;
+}
+
+
+}
+.subheading-small-left{
+    text-align: left;
+    font-size:2em;
+    font-family:ubuntu;
+    color:black;
+    margin-left: 10px;
+    font-weight:bold;
+}
+.subheading-small-right{
+    text-align: right;
+    font-size:2em;
+    font-family:ubuntu;
+    color:black;
+    margin-right: 20vw;
+    font-weight:bold;
+    
+}
+
+.creation-image{ 
+    height:auto;
+    width:25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.creation-image-papatuanuku{
+    height:auto;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
+  
+}
+.creation-image-papatuanuku-1{
+    height: 250px;
+    width:auto;
+    padding-left: 40%;
+    
+    
+    
+}
+.creation-image-ranginui{
+    height: auto;
+    width:60%;
+    margin-left: 65vh;
+    margin-bottom: 50px;
+     display: block;
+    margin-left: auto;
+   margin-right: auto;
+    
+}
+.small-images{
+    align-items:left;
+    height: 20vw;
+    width:30vw;
+    margin-left:0;
+    margin-top:25px;
+    max-height: 120px;
+    max-width: 180px;
+}
+
+.big-images{
+    height: 34vw;
+    width:51vw;
+    margin-left:20vw;
+    margin-top:25px;
+}
+
+.weather-images{
+    display:flex;
+    align-items:left;
+    height:200px;
+    width:250px;
+    margin-left:0;
+    margin-top:25px;
+}
+
+.paragraph {
+    text-align: center;
+    font-family:arial;
+    font-size: 18px;
+    color:black;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left:18vh;
+    margin-right:18vh;
+    }
+.paragraph-quote {
+    text-align: center;
+    font-family:ubuntu;
+    font-size: 35px;
+    color:black;
+    margin-top: 20%;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 500;
+    }
+.paragraph-quote-2 {
+    text-align: center;
+    font-family:ubuntu;
+    font-size: 35px;
+    color:black;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-style: italic;
+    font-weight: 500;
+    }
+.paragraph-home{
+    text-align: center;
+    font-family:arial;
+    font-size: 18px;
+    color:black;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: white;
+    }
+
+.paragraph-small {
+  
+    text-align: left;
+    font-family:arial;
+    font-size: 18px;
+    color:black;
+    margin-top:100px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+    }
+
+    }
+.paragraph-bold {
+    text-align: center;
+    font-family:arial;
+    font-size: 18px;
+    color:black;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    }
+
+.align-left {
+    
+    align-items:right;
+    height:500px;
+    text-align: left;
+    margin-right: 20vh;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    width:40vw; 
+    min-width: 400px;
+    float:left;
+   
+}
+
+.align-left-1 {
+    width:300px;
+    float:none;
+}
+
+.align-right {
+    align-items:right;
+    text-align: right;
+    margin-left:50vw; 
+    margin-right: 5px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    width:40vw;
+    min-width: 400px;
+    float:left;
+    
+}
+
+.blue-box{
+    float:left;
+    width:50vw;
+    min-width: 400px;
+    background-color:blue;
+    padding: 50px;
+    
+}
+
+.green-box{
+    float:right;
+    width:50vw;
+    min-width: 400px;
+    background-color:greenyellow;
+    padding: 50px;
+    
+}
+
+.cart-price{
+    font-family: ubuntu;
+    color:black;
+    font-size: 18px;
+}
+.shop-items{
+    display:flex;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    margin-left:0;
+}
+.shop-item{
+    margin-left: 20%;
+}
+
+.shop-item-1{
+    margin-left: 0;
+}
+
+.shop-item-image{
+    height:auto;
+    width:20vw;
+}
+
+.shop-item-price{
+    padding:12px;
+    font-family: ubuntu;
+    color:black;
+    font-size: 22px;
+    font-weight: 500;
+}
+.cart-row{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    
+}
+.cart-header-1{
+    margin-left: 15%;
+    font-family: ubuntu;
+    color:black;
+    font-size: 22px;
+    font-weight: 500;
+}
+.cart-header-2{
+    margin-left: 19%;
+    font-family: ubuntu;
+    color:black;
+    font-size: 22px;
+    font-weight: 500;
+}
+.cart-header-3{
+    margin-left: 20.5%;
+   font-family: ubuntu;
+    color:black;
+    font-size: 22px;
+    font-weight: 500;
+}
+.cart-item-price{
+    display:flex;
+}
+.cart-column-1{
+    align-items: center;
+    justify-content:center;
+    margin-left:30%;
+    margin-right: 20%;
+    
+}
+.cart-column-2{
+    align-items: center;
+    justify-content:center;
+    margin-left:30%;
+    margin-right: 20%;
+}
+.cart-column-3{
+    align-items: center;
+    justify-content:center;
+    margin-left:30%;
+    margin-right: 20%;
+    
+}
+.cart-total{
+    margin-left:75%;
+}
+.btn-purchase{
+    margin-left:76.5%;
+    margin-bottom:50px;
+}
+.cart-item-image-1{
+    margin-left:170%;
+}
+.cart-item-image-2{
+    margin-left:170%
+}
+.cart-item-image-3{
+    margin-left:170%
+}
+.cart-item-title{
+    margin-left: 20%;
+}
+.tawhiramatea-image{
+    height: 500px;
+    width: auto;
+    margin-top: 100px;
+    margin-left: 70vh;
+}
+.weather-list{
+    margin-top: 6%;
+    color:white;
+    margin-left: 25px;
+    margin-bottom:0px;
+}
+.cart-total-title{
+    font-family: ubuntu;
+    color:black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cart-total-price{
+    font-family: ubuntu;
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.person{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    margin-left: 22vh;
+}
